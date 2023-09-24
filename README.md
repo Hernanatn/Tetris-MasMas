@@ -13,10 +13,10 @@
 El juego es completamente portable, descargue y descomprima el archivo <a href="./TETRIS++_v0-1.zip"><code>TETRIS++_v0-1.zip</code></a>
 
 <h2>Compilar Tetris++ desde fuente</h2>
-Tetris++ tiene tan pocas dependencias que compilarlo de fuente se logra sin necesidad de un makefile:
+Tetris++ tiene tan pocas dependencias que compilarlo con g++ es relativamente sencillo:
 
 ```Bash
-g++ -o tetris++.exe main.cpp -static-libgcc -static-libstdc++ -lpthread
+g++ -o tetris++.exe main.cpp -static-libgcc -static-libstdc++ -static-lpthread
 ```
 
 </body>
